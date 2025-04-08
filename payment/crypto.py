@@ -5,7 +5,7 @@ from utils.logger import logger
 
 class CryptoPayment:
     def __init__(self):
-        self.crypto = AioCryptoPay(token=CRYPTO_BOT_TOKEN, network=Networks.TEST_NET)
+        self.crypto = AioCryptoPay(token=CRYPTO_BOT_TOKEN, network=Networks.MAIN_NET)
         self.active_invoices = {}  # Словарь для хранения активных счетов
 
     async def create_invoice(self, user_id: int, amount: float) -> dict:

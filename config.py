@@ -3,8 +3,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv('7847197165:AAGEzYCC1GmMVoxhM804vPXs5LyNPuneCeU')
-CRYPTO_BOT_TOKEN = os.getenv('365885:AAkJPy2Gr5d0sIUAGWm1HokYfpOoGGwnlyD')
+BOT_TOKEN = os.getenv('BOT_TOKEN')
+CRYPTO_BOT_TOKEN = os.getenv('CRYPTO_BOT_TOKEN')
 
 GAME_SETTINGS = {
     'bowling': {
